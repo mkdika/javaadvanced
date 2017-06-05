@@ -4,7 +4,7 @@ public class Student {
     
     private final String studentId;
     private final String studentName;
-    private Double score;
+     Double score;
     
     // Default Constructor
     public Student() {
