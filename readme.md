@@ -7,3 +7,5 @@ This is repository for Java Advanced short course.
 - [Java Advanced - Meetup 1](https://goo.gl/KXnbw1)
 
 - [Java Advanced - Meetup 2](https://goo.gl/GdNyzz)
+
+- [Java Advanced - Meetup 3](https://goo.gl/aDaexR)
