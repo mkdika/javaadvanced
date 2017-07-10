@@ -11,7 +11,7 @@ import oop.interfaceclass.Shape2D;
 public class Aic {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Car teslaCar = new Car() {
             
             @Override

@@ -4,7 +4,7 @@ public abstract class Car {
     
     private Double feul;    
     
-    public abstract void fuelComsumption();
+    public abstract void fuelComsumption() throws Exception;
         
     
 

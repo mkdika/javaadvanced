@@ -15,6 +15,10 @@ public class Rectangle implements Shape2D{
     public double calculateVolume() {
         return (a*b);
     }
+    
+    public double calculateVolume(int x) {
+        return (x*a*b);
+    }
 
     @Override
     public void printShapeInfo() {

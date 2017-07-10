@@ -14,12 +14,14 @@ public class Polymorphism2 {
         System.out.println("");        
         
         Printer printerB = new PrinterInkjet();
-        printerB.printing("Hello Girl!");   
+        printerB.printing("Hello Girl!");  
+       
                 
         System.out.println("");                
         
 //        // Sub-Casting
-        ((PrinterInkjet) printerB).nozzleCheck();                
+        ((PrinterInkjet) printerB).nozzleCheck();
+       // printerInkjet.nozzlecheck
        
 //        // sub-casting error?
 //         ((PrinterInkjet) printerA).setup();

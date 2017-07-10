@@ -5,6 +5,8 @@ package swing.customcomponents;
  * @author Maikel Chandika <mkdika@gmail.com>
  */
 public class XNumericField extends javax.swing.JTextField {
+    
+    private String xcolor;
 
     public XNumericField() {
         setHorizontalAlignment(RIGHT); // set default alignment is RIGHT
@@ -34,5 +36,15 @@ public class XNumericField extends javax.swing.JTextField {
             return Integer.valueOf(getText().trim());
         }
     }
+
+    public String getXcolor() {
+        return xcolor;
+    }
+
+    public void setXcolor(String xcolor) {
+        this.xcolor = xcolor;
+    }
+    
+    
 
 }
